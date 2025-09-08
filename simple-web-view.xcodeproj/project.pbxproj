@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B20693192E6EAB100041BBD3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20693182E6EAB100041BBD3 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B20692E12E6A69780041BBD3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		B20692C72E6A69760041BBD3 /* simple-web-view.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simple-web-view.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20692E02E6A69780041BBD3 /* simple-web-viewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simple-web-viewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20692EA2E6A69780041BBD3 /* simple-web-viewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simple-web-viewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20693182E6EAB100041BBD3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B20693192E6EAB100041BBD3 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +97,7 @@
 				B20692C92E6A69760041BBD3 /* simple-web-view */,
 				B20692E32E6A69780041BBD3 /* simple-web-viewTests */,
 				B20692ED2E6A69780041BBD3 /* simple-web-viewUITests */,
+				B20693172E6EAB100041BBD3 /* Frameworks */,
 				B20692C82E6A69760041BBD3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +110,14 @@
 				B20692EA2E6A69780041BBD3 /* simple-web-viewUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B20693172E6EAB100041BBD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B20693182E6EAB100041BBD3 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +304,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RRNLDDCS36;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "simple-web-view/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -320,6 +336,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RRNLDDCS36;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "simple-web-view/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -396,7 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -453,7 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;

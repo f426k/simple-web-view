@@ -14,7 +14,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let request = URLRequest(url: URL(string: "https://game.granbluefantasy.jp/")!)
+        let request = URLRequest(url: URL(string: "https://gbf.game.mbga.jp/")!)
         webView.load(request)
         webView.isInspectable = true
 
